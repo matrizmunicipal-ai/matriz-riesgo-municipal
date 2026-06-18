@@ -2,8 +2,8 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 
 // ─── CONFIGURACIÓN SUPABASE ───────────────────────────────────────────────────
 // Pega aquí tus credenciales de supabase.com → Settings → API
-const SUPABASE_URL = "";       // ej: https://xyzxyz.supabase.co
-const SUPABASE_ANON_KEY = "";  // ej: eyJhbGci...
+const SUPABASE_URL = "https://rgoepwpgqdsniscknsga.supabase.co";       // ej: https://xyzxyz.supabase.co
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJnb2Vwd3BncWRzbmlzY2tuc2dhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE4MDg0NzEsImV4cCI6MjA5NzM4NDQ3MX0.YSJV9-gPbv7SaB_3pWjm4Pd77IXvcdDJlwxNlvHgG9A";  // ej: eyJhbGci...
 // ─────────────────────────────────────────────────────────────────────────────
 
 const DEPARTAMENTOS = [
