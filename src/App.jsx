@@ -71,7 +71,7 @@ function useSupabase(url, key) {
     if (!res.ok) throw new Error(await res.text());
   }, [url, key]);
 
-  return { getAll, insert, update, remove };
+  return useMemo(() => ({ getAll, insert, update, remove }), [getAll, insert, update, remove]);
 }
 
 // ─── PANTALLA DE CONFIGURACIÓN ────────────────────────────────────────────────
