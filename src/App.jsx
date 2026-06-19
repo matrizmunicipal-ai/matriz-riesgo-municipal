@@ -1,8 +1,8 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 
 // ─── CONFIGURACIÓN SUPABASE ────────────────────────────────────────────────
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
+const SUPABASE_URL = "const SUPABASE_URL = "https://rgoepwpgqdsniscknsga.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJnb2Vwd3BncWRzbmlzY2tuc2dhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyMDM3NzQsImV4cCI6MjA2NTc3OTc3NH0.tu_key_completa";
 // ────────────────────────────────────────────────────────────────────────────
 
 const DEPARTAMENTOS = [
